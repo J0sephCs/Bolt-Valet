@@ -1,8 +1,8 @@
 # Bolt-Valet Microservices System
 **Microservices-based Valet System** built with **Spring Boot** and **Spring Cloud**. It features a robust security layer via an API Gateway and a dedicated service for handling notification logistics.
-A distributed backend architecture for a valet service management system. This project utilizes a microservices approach to handle API routing, service discovery, security via JWT, and notification logging.
 
 ##  Architecture Overview
+A distributed backend architecture for a valet service management system. This project utilizes a microservices approach to handle API routing, service discovery, security via JWT, and notification logging.
 
 The system is composed of several key components:
 
