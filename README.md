@@ -4,6 +4,9 @@ A full-stack valet parking management system consisting of a React Native mobile
 
 ---
 
+## System Architecture
+
+
 <img width="1408" height="768" alt="Gemini_Generated_Image_a4qflra4qflra4qf" src="https://github.com/user-attachments/assets/e6bb5b29-64f8-43cf-8e40-1eab15460dc1" />
 
 ---
