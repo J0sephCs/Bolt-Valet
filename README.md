@@ -115,8 +115,6 @@ A full-stack valet parking management system consisting of a React Native mobile
 
 ## Backend API Reference
 
-Full endpoint and WebSocket documentation: see [`READMEBackend.md`](./READMEBackend.md)
-
 ### Key Endpoints (via API Gateway at `:8083`)
 
 | Method | Path | Description |
@@ -140,3 +138,4 @@ Full endpoint and WebSocket documentation: see [`READMEBackend.md`](./READMEBack
 ## License
 
 Private project.
+
