@@ -6,34 +6,10 @@ A full-stack valet parking management system consisting of a React Native mobile
 
 ## System Architecture
 
-```
-┌─────────────────────────────────┐
-│        Bolt Valet Mobile App    │  ← React Native / Expo (iOS, Android)
-│        (Attendant Interface)    │
-└────────────────┬────────────────┘
-                 │  REST + WebSocket (SockJS/STOMP)
-                 ▼
-┌─────────────────────────────────┐
-│         API Gateway :8083       │  ← JWT validation & routing
-└──────┬──────────────────┬───────┘
-       │                  │
-       ▼                  ▼
-┌─────────────┐   ┌──────────────────┐
-│Valet Service│   │Notification Svc  │  ← SMS/push customer alerts
-│    :8082    │   │     :8089        │
-└──────┬──────┘   └────────┬─────────┘
-       │                   │
-       └────────┬──────────┘
-                ▼
-        ┌──────────────┐
-        │   RabbitMQ   │  ← Async inter-service messaging
-        └──────────────┘
 
-┌──────────────────┐   ┌───────┐
-│ Eureka Registry  │   │ MySQL │
-│     :8761        │   │  DB   │
-└──────────────────┘   └───────┘
-```
+<img width="1408" height="768" alt="Gemini_Generated_Image_a4qflra4qflra4qf" src="https://github.com/user-attachments/assets/e6bb5b29-64f8-43cf-8e40-1eab15460dc1" />
+
+
 
 ---
 
@@ -138,4 +114,5 @@ A full-stack valet parking management system consisting of a React Native mobile
 ## License
 
 Private project.
+
 
